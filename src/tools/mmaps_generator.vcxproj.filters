@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\mmaps_generator\IntermediateValues.cpp">
+      <Filter>mmaps_generator</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\mmaps_generator\MapBuilder.cpp">
+      <Filter>mmaps_generator</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\mmaps_generator\PathGenerator.cpp">
+      <Filter>mmaps_generator</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\mmaps_generator\TerrainBuilder.cpp">
+      <Filter>mmaps_generator</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging\WheatyExceptionReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\mmaps_generator\IntermediateValues.h">
+      <Filter>mmaps_generator</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\mmaps_generator\MapBuilder.h">
+      <Filter>mmaps_generator</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\mmaps_generator\PathCommon.h">
+      <Filter>mmaps_generator</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\mmaps_generator\TerrainBuilder.h">
+      <Filter>mmaps_generator</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging\WheatyExceptionReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{61E4FF88-FDB2-3594-9978-4B89E2FFBB22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0034CBE-ACEB-382F-AA3E-B8AFC018FB8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mmaps_generator">
+      <UniqueIdentifier>{26DE48B4-9203-34FB-8AFA-1BF242CD0815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

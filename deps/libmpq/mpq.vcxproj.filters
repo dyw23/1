@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\common.c">
+      <Filter>libmpq</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\explode.c">
+      <Filter>libmpq</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\extract.c">
+      <Filter>libmpq</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\huffman.c">
+      <Filter>libmpq</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\mpq.c">
+      <Filter>libmpq</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\wave.c">
+      <Filter>libmpq</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\common.h">
+      <Filter>libmpq</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\crypt_buf.h">
+      <Filter>libmpq</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\explode.h">
+      <Filter>libmpq</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\extract.h">
+      <Filter>libmpq</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\huffman.h">
+      <Filter>libmpq</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\mpq-internal.h">
+      <Filter>libmpq</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\mpq.h">
+      <Filter>libmpq</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\pack_begin.h">
+      <Filter>libmpq</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\pack_end.h">
+      <Filter>libmpq</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\platform.h">
+      <Filter>libmpq</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\libmpq\wave.h">
+      <Filter>libmpq</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\libmpq\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libmpq">
+      <UniqueIdentifier>{A5146392-5167-39CE-B7DB-24218EF53000}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

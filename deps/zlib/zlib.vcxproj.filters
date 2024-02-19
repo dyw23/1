@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0034CBE-ACEB-382F-AA3E-B8AFC018FB8B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

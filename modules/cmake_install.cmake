@@ -1,0 +1,225 @@
+# Install script for directory: G:/WORK/AzerothCore-wotlk-with-NPCBots/modules
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/AzerothCore")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
+
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  
+    foreach(SCRIPT_TO_UNINSTALL C:/Program Files (x86)/AzerothCore/scripts/mod_mod-1v1-arena.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-account-achievements.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-ah-bot.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-bg-item-reward.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-challenge-modes.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-eluna.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-gain-honor-guard.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-guildfunds.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-learn-spells.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-pvp-titles.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-random-enchants.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-reagent-bank.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-solo-lfg.dll;C:/Program Files (x86)/AzerothCore/scripts/mod_mod-transmog.dll)
+      if(EXISTS "${SCRIPT_TO_UNINSTALL}")
+        message(STATUS "Uninstalling: ${SCRIPT_TO_UNINSTALL}")
+        file(REMOVE "${SCRIPT_TO_UNINSTALL}")
+      endif()
+    endforeach()
+  
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/1v1arena.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-1v1-arena/conf/1v1arena.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/mod_achievements.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-account-achievements/conf/mod_achievements.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/mod_ahbot.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-ah-bot/conf/mod_ahbot.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/mod-bg-item-reward.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-bg-item-reward/conf/mod-bg-item-reward.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/challenge_modes.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-challenge-modes/conf/challenge_modes.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/mod_LuaEngine.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-eluna/conf/mod_LuaEngine.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/GainHonorGuard.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-gain-honor-guard/conf/GainHonorGuard.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/mod_guildfunds.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-guildfunds/conf/mod_guildfunds.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/mod_learnspells.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-learn-spells/conf/mod_learnspells.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/mod_pvptitles.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-pvp-titles/conf/mod_pvptitles.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/RandomEnchants.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-random-enchants/conf/RandomEnchants.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/reagent_bank.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-reagent-bank/conf/reagent_bank.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/SoloLfg.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-solo-lfg/conf/SoloLfg.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/configs/modules/transmog.conf.dist")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/configs/modules" TYPE FILE FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-transmog/conf/transmog.conf.dist")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "C:/Program Files (x86)/AzerothCore/bin/lua_scripts//extensions")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "C:/Program Files (x86)/AzerothCore/bin/lua_scripts/" TYPE DIRECTORY FILES "G:/WORK/AzerothCore-wotlk-with-NPCBots/modules/mod-eluna/src/LuaEngine/extensions")
+endif()
+

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\WORK\BuildNPCBOT\src\server\apps\CMakeFiles\worldserver.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\worldserver\Main.cpp">
+      <Filter>worldserver</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\worldserver\ACSoap\ACSoap.cpp">
+      <Filter>worldserver\ACSoap</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\worldserver\CommandLine\CliRunnable.cpp">
+      <Filter>worldserver\CommandLine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\worldserver\RemoteAccess\RASession.cpp">
+      <Filter>worldserver\RemoteAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging\WheatyExceptionReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform\ServiceWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\worldserver\resource.h">
+      <Filter>worldserver</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\worldserver\ACSoap\ACSoap.h">
+      <Filter>worldserver\ACSoap</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\worldserver\CommandLine\CliRunnable.h">
+      <Filter>worldserver\CommandLine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\worldserver\RemoteAccess\RASession.h">
+      <Filter>worldserver\RemoteAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging\WheatyExceptionReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform\ServiceWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\BuildNPCBOT\src\server\apps\CMakeFiles\worldserver.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\BuildNPCBOT\src\server\apps\CMakeFiles\worldserver.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\BuildNPCBOT\src\server\apps\CMakeFiles\worldserver.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\BuildNPCBOT\src\server\apps\CMakeFiles\worldserver.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\worldserver\worldserver.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{61E4FF88-FDB2-3594-9978-4B89E2FFBB22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{43B856E9-C690-3D51-B9FA-CC3FB2A4611C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0034CBE-ACEB-382F-AA3E-B8AFC018FB8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="worldserver">
+      <UniqueIdentifier>{ED3F4D71-BC9D-33ED-A567-BC69F4BD15C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="worldserver\ACSoap">
+      <UniqueIdentifier>{7902C00C-E8F1-3E7D-828B-B59118B1980E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="worldserver\CommandLine">
+      <UniqueIdentifier>{E5F335D1-C024-34AD-8D0E-BCB8CAB1728B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="worldserver\RemoteAccess">
+      <UniqueIdentifier>{B26DC910-3C29-3A83-890B-191D7102DE22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

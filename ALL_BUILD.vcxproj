@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CA5D6B94-8D6B-317E-B0E5-565BFAEF0103}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/WORK/AzerothCore-wotlk-with-NPCBots/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/WORK/AzerothCore-wotlk-with-NPCBots -BG:/WORK/BuildNPCBOT --check-stamp-file G:/WORK/BuildNPCBOT/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\conf\dist\config.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\acore\cmake-utils\utils.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\ac_macros.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\compiler\msvc\settings.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\genrev.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\AutoCollect.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\CheckPlatform.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigInstall.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureApplications.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureBaseTargets.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureModules.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureScripts.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureTools.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\EnsureVersion.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\FindGit.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\FindMySQL.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\FindPCHSupport.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\GroupSources.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\platform\after_platform.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\platform\settings.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\platform\win\settings.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\showoptions.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeCCompiler.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\WORK\BuildNPCBOT\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/WORK/AzerothCore-wotlk-with-NPCBots/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/WORK/AzerothCore-wotlk-with-NPCBots -BG:/WORK/BuildNPCBOT --check-stamp-file G:/WORK/BuildNPCBOT/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\conf\dist\config.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\acore\cmake-utils\utils.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\ac_macros.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\compiler\msvc\settings.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\genrev.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\AutoCollect.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\CheckPlatform.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigInstall.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureApplications.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureBaseTargets.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureModules.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureScripts.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureTools.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\EnsureVersion.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\FindGit.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\FindMySQL.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\FindPCHSupport.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\GroupSources.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\platform\after_platform.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\platform\settings.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\platform\win\settings.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\showoptions.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeCCompiler.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\WORK\BuildNPCBOT\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/WORK/AzerothCore-wotlk-with-NPCBots/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/WORK/AzerothCore-wotlk-with-NPCBots -BG:/WORK/BuildNPCBOT --check-stamp-file G:/WORK/BuildNPCBOT/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\conf\dist\config.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\acore\cmake-utils\utils.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\ac_macros.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\compiler\msvc\settings.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\genrev.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\AutoCollect.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\CheckPlatform.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigInstall.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureApplications.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureBaseTargets.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureModules.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureScripts.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureTools.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\EnsureVersion.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\FindGit.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\FindMySQL.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\FindPCHSupport.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\GroupSources.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\platform\after_platform.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\platform\settings.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\platform\win\settings.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\showoptions.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeCCompiler.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\WORK\BuildNPCBOT\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/WORK/AzerothCore-wotlk-with-NPCBots/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/WORK/AzerothCore-wotlk-with-NPCBots -BG:/WORK/BuildNPCBOT --check-stamp-file G:/WORK/BuildNPCBOT/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\conf\dist\config.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\acore\cmake-utils\utils.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\ac_macros.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\compiler\msvc\settings.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\genrev.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\AutoCollect.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\CheckPlatform.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigInstall.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureApplications.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureBaseTargets.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureModules.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureScripts.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\ConfigureTools.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\EnsureVersion.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\FindGit.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\FindMySQL.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\FindPCHSupport.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\macros\GroupSources.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\platform\after_platform.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\platform\settings.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\platform\win\settings.cmake;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\cmake\showoptions.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeCCompiler.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;G:\WORK\BuildNPCBOT\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\WORK\BuildNPCBOT\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\ZERO_CHECK.vcxproj">
+      <Project>{21C8BCCC-A888-34F5-AE64-1BA652CE4185}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\recastnavigation\Detour\Detour.vcxproj">
+      <Project>{FED4F309-C35D-3B56-A051-C099A1E0818E}</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\recastnavigation\Recast\Recast.vcxproj">
+      <Project>{4B114CF9-6B06-3440-9AB1-3E49377FE911}</Project>
+      <Name>Recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\argon2\argon2.vcxproj">
+      <Project>{53D6B1F5-45D1-3CE8-9B0B-455DEBC1EEE0}</Project>
+      <Name>argon2</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\server\apps\authserver.vcxproj">
+      <Project>{C5A68D8E-7465-30B7-8F19-DD49FCEEEAD8}</Project>
+      <Name>authserver</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\bzip2\bzip2.vcxproj">
+      <Project>{8283E332-3B6B-31ED-BF0C-B904BA72ADFF}</Project>
+      <Name>bzip2</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\common\common.vcxproj">
+      <Project>{13A81F05-1E38-3960-B40F-1BD37E1491D0}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\server\database\database.vcxproj">
+      <Project>{9B3FB15B-198B-3D13-90EB-5866224FD328}</Project>
+      <Name>database</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\tools\dbimport.vcxproj">
+      <Project>{B5FE3B44-E8D5-3C61-B52B-433AFE324997}</Project>
+      <Name>dbimport</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\fmt\fmt.vcxproj">
+      <Project>{C54E2589-6C87-3D0B-B356-4BE65145130A}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\g3dlite\g3dlib.vcxproj">
+      <Project>{D587A6C3-4EBE-3F38-9AEA-CD130D1AFC7E}</Project>
+      <Name>g3dlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\server\game\game.vcxproj">
+      <Project>{21332E38-5EAF-3996-98F7-F5607663D3B7}</Project>
+      <Name>game</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\gsoap\gsoap.vcxproj">
+      <Project>{5CD04A89-F25B-3BC9-9261-4D2A6F608543}</Project>
+      <Name>gsoap</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\tools\map_extractor.vcxproj">
+      <Project>{98FBCE42-065F-3BAD-8ED9-8EEE8662C3EE}</Project>
+      <Name>map_extractor</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\tools\mmaps_generator.vcxproj">
+      <Project>{133C95C0-244B-3C57-A98D-90E9E613656C}</Project>
+      <Name>mmaps_generator</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\modules\modules.vcxproj">
+      <Project>{5E6038F6-59BB-314C-BD5D-38162D9376A8}</Project>
+      <Name>modules</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\libmpq\mpq.vcxproj">
+      <Project>{77ED0698-9C5D-3C10-872A-8E3F311DF01F}</Project>
+      <Name>mpq</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\genrev\revision.h.vcxproj">
+      <Project>{97D2C183-64C0-3B10-8A53-A1FFC725A163}</Project>
+      <Name>revision.h</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\server\scripts\scripts.vcxproj">
+      <Project>{41C1F206-3897-3484-A5A1-A909B06E3BCF}</Project>
+      <Name>scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\SFMT\sfmt.vcxproj">
+      <Project>{72192D6E-E80A-3EC8-9A3E-4256F58246CF}</Project>
+      <Name>sfmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\server\shared\shared.vcxproj">
+      <Project>{735100A1-2465-3A01-B394-A71F73449AF9}</Project>
+      <Name>shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\tools\vmap4_assembler.vcxproj">
+      <Project>{EEF580CE-175B-32DF-9710-5F9ABD294408}</Project>
+      <Name>vmap4_assembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\tools\vmap4_extractor.vcxproj">
+      <Project>{99B85CCF-FEB6-3468-A64B-F1E75AFD11B2}</Project>
+      <Name>vmap4_extractor</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\server\apps\worldserver.vcxproj">
+      <Project>{15F7DC17-A476-31D9-8485-12F85999E6A3}</Project>
+      <Name>worldserver</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\zlib\zlib.vcxproj">
+      <Project>{2DBE119B-55D0-3445-9730-8E30A09C764E}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

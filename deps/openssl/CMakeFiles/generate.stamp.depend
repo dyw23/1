@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/deps/openssl/CMakeLists.txt
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/EnsureVersion.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/FindOpenSSL.cmake

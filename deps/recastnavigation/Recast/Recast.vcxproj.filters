@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Recast\Source\Recast.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Recast\Source\RecastAlloc.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Recast\Source\RecastAssert.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Recast\Source\RecastArea.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Recast\Source\RecastContour.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Recast\Source\RecastFilter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Recast\Source\RecastLayers.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Recast\Source\RecastMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Recast\Source\RecastMeshDetail.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Recast\Source\RecastRasterization.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Recast\Source\RecastRegion.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Recast\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{7E8EE014-D255-32C5-80A9-F2C3CC9E79F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,50 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/CMakeLists.txt
+G:/WORK/AzerothCore-wotlk-with-NPCBots/conf/dist/config.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/deps/acore/cmake-utils/utils.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/ac_macros.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/compiler/msvc/settings.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/genrev.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/AutoCollect.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/CheckPlatform.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/ConfigInstall.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/ConfigureApplications.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/ConfigureBaseTargets.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/ConfigureModules.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/ConfigureScripts.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/ConfigureTools.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/EnsureVersion.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/FindGit.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/FindMySQL.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/FindPCHSupport.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/macros/GroupSources.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/platform/after_platform.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/platform/settings.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/platform/win/settings.cmake
+G:/WORK/AzerothCore-wotlk-with-NPCBots/src/cmake/showoptions.cmake
+G:/WORK/BuildNPCBOT/CMakeFiles/3.28.1/CMakeCCompiler.cmake
+G:/WORK/BuildNPCBOT/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake
+G:/WORK/BuildNPCBOT/CMakeFiles/3.28.1/CMakeRCCompiler.cmake
+G:/WORK/BuildNPCBOT/CMakeFiles/3.28.1/CMakeSystem.cmake

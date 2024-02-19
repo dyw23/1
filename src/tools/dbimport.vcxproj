@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B5FE3B44-E8D5-3C61-B52B-433AFE324997}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>dbimport</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\WORK\BuildNPCBOT\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dbimport.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dbimport</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\WORK\BuildNPCBOT\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dbimport.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dbimport</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\WORK\BuildNPCBOT\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dbimport.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dbimport</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\WORK\BuildNPCBOT\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dbimport.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dbimport</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport;G:\WORK\BuildNPCBOT\src\tools\dbimport;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database\Implementation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Updater;G:\WORK\BuildNPCBOT;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Asio;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Management;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Maps;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Models;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Configuration;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography\Authentication;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\DataStores;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic\LinkedReference;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Encoding;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\IPLocation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Metric;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Navigation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Threading;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Utilities;C:\local\boost_1_82_0;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\argon2;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\SFMT;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\utf8cpp;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\fmt\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\g3dlite\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Detour\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/OpenSSL-Win64/include" /bigobj /utf-8 /w34100 /w34101 /w34189 /w34389</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4985;4244;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CONF_DIR="C:/Program Files (x86)/AzerothCore";NO_CORE_FUNCS;ENABLE_VMAP_CHECKS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;AC_HAS_BROKEN_WSTRING_REGEX;SFMT_MEXP=19937;HAVE_SSE2;FMT_LOCALE;FMT_CONSTEVAL=;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;__STDC_LIMIT_MACROS;NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CONF_DIR=\"C:/Program Files (x86)/AzerothCore\";NO_CORE_FUNCS;ENABLE_VMAP_CHECKS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;AC_HAS_BROKEN_WSTRING_REGEX;SFMT_MEXP=19937;HAVE_SSE2;FMT_LOCALE;FMT_CONSTEVAL=;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;__STDC_LIMIT_MACROS;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport;G:\WORK\BuildNPCBOT\src\tools\dbimport;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database\Implementation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Updater;G:\WORK\BuildNPCBOT;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Asio;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Management;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Maps;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Models;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Configuration;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography\Authentication;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\DataStores;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic\LinkedReference;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Encoding;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\IPLocation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Metric;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Navigation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Threading;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Utilities;C:\local\boost_1_82_0;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\argon2;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\SFMT;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\utf8cpp;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\fmt\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\g3dlite\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Detour\Include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport;G:\WORK\BuildNPCBOT\src\tools\dbimport;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database\Implementation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Updater;G:\WORK\BuildNPCBOT;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Asio;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Management;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Maps;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Models;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Configuration;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography\Authentication;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\DataStores;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic\LinkedReference;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Encoding;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\IPLocation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Metric;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Navigation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Threading;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Utilities;C:\local\boost_1_82_0;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\argon2;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\SFMT;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\utf8cpp;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\fmt\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\g3dlite\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Detour\Include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory G:/WORK/BuildNPCBOT/bin/$(ConfigurationName)/configs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/WORK/AzerothCore-wotlk-with-NPCBots/src/tools/dbimport/dbimport.conf.dist G:/WORK/BuildNPCBOT/bin/$(ConfigurationName)/configs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\server\database\Debug\database.lib;C:\Program Files\MySQL\MySQL Server 8.0\lib\libmysql.lib;..\common\Debug\common.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_system-vc143-mt-gd-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_filesystem-vc143-mt-gd-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_program_options-vc143-mt-gd-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_iostreams-vc143-mt-gd-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_regex-vc143-mt-gd-x64-1_82.lib;..\..\deps\argon2\Debug\argon2.lib;..\..\deps\SFMT\Debug\sfmt.lib;C:\Program Files\OpenSSL-Win64\lib\VC\libssl64MDd.lib;C:\Program Files\OpenSSL-Win64\lib\VC\libcrypto64MDd.lib;..\..\deps\fmt\Debug\fmt.lib;..\..\deps\g3dlite\Debug\g3dlib.lib;..\..\deps\recastnavigation\Detour\Debug\Detour.lib;..\..\deps\zlib\Debug\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/WORK/BuildNPCBOT/src/tools/Debug/dbimport.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/WORK/BuildNPCBOT/bin/Debug/dbimport.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport;G:\WORK\BuildNPCBOT\src\tools\dbimport;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database\Implementation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Updater;G:\WORK\BuildNPCBOT;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Asio;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Management;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Maps;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Models;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Configuration;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography\Authentication;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\DataStores;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic\LinkedReference;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Encoding;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\IPLocation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Metric;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Navigation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Threading;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Utilities;C:\local\boost_1_82_0;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\argon2;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\SFMT;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\utf8cpp;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\fmt\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\g3dlite\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Detour\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/OpenSSL-Win64/include" /utf-8 /w34100 /w34101 /w34189 /w34389</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4351;4091;4996;4985;4244;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CONF_DIR="C:/Program Files (x86)/AzerothCore";NO_CORE_FUNCS;ENABLE_VMAP_CHECKS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;AC_HAS_BROKEN_WSTRING_REGEX;SFMT_MEXP=19937;HAVE_SSE2;FMT_LOCALE;FMT_CONSTEVAL=;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;__STDC_LIMIT_MACROS;NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CONF_DIR=\"C:/Program Files (x86)/AzerothCore\";NO_CORE_FUNCS;ENABLE_VMAP_CHECKS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;AC_HAS_BROKEN_WSTRING_REGEX;SFMT_MEXP=19937;HAVE_SSE2;FMT_LOCALE;FMT_CONSTEVAL=;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;__STDC_LIMIT_MACROS;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport;G:\WORK\BuildNPCBOT\src\tools\dbimport;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database\Implementation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Updater;G:\WORK\BuildNPCBOT;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Asio;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Management;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Maps;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Models;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Configuration;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography\Authentication;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\DataStores;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic\LinkedReference;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Encoding;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\IPLocation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Metric;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Navigation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Threading;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Utilities;C:\local\boost_1_82_0;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\argon2;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\SFMT;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\utf8cpp;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\fmt\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\g3dlite\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Detour\Include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport;G:\WORK\BuildNPCBOT\src\tools\dbimport;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database\Implementation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Updater;G:\WORK\BuildNPCBOT;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Asio;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Management;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Maps;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Models;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Configuration;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography\Authentication;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\DataStores;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic\LinkedReference;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Encoding;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\IPLocation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Metric;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Navigation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Threading;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Utilities;C:\local\boost_1_82_0;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\argon2;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\SFMT;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\utf8cpp;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\fmt\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\g3dlite\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Detour\Include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory G:/WORK/BuildNPCBOT/bin/$(ConfigurationName)/configs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/WORK/AzerothCore-wotlk-with-NPCBots/src/tools/dbimport/dbimport.conf.dist G:/WORK/BuildNPCBOT/bin/$(ConfigurationName)/configs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\server\database\Release\database.lib;C:\Program Files\MySQL\MySQL Server 8.0\lib\libmysql.lib;..\common\Release\common.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_system-vc143-mt-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_filesystem-vc143-mt-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_program_options-vc143-mt-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_iostreams-vc143-mt-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_regex-vc143-mt-x64-1_82.lib;..\..\deps\argon2\Release\argon2.lib;..\..\deps\SFMT\Release\sfmt.lib;C:\Program Files\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\Program Files\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;..\..\deps\fmt\Release\fmt.lib;..\..\deps\g3dlite\Release\g3dlib.lib;..\..\deps\recastnavigation\Detour\Release\Detour.lib;..\..\deps\zlib\Release\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/WORK/BuildNPCBOT/src/tools/Release/dbimport.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/WORK/BuildNPCBOT/bin/Release/dbimport.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport;G:\WORK\BuildNPCBOT\src\tools\dbimport;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database\Implementation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Updater;G:\WORK\BuildNPCBOT;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Asio;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Management;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Maps;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Models;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Configuration;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography\Authentication;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\DataStores;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic\LinkedReference;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Encoding;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\IPLocation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Metric;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Navigation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Threading;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Utilities;C:\local\boost_1_82_0;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\argon2;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\SFMT;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\utf8cpp;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\fmt\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\g3dlite\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Detour\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/OpenSSL-Win64/include" /utf-8 /w34100 /w34101 /w34189 /w34389</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4351;4091;4996;4985;4244;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CONF_DIR="C:/Program Files (x86)/AzerothCore";NO_CORE_FUNCS;ENABLE_VMAP_CHECKS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;AC_HAS_BROKEN_WSTRING_REGEX;SFMT_MEXP=19937;HAVE_SSE2;FMT_LOCALE;FMT_CONSTEVAL=;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;__STDC_LIMIT_MACROS;NOMINMAX;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CONF_DIR=\"C:/Program Files (x86)/AzerothCore\";NO_CORE_FUNCS;ENABLE_VMAP_CHECKS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;AC_HAS_BROKEN_WSTRING_REGEX;SFMT_MEXP=19937;HAVE_SSE2;FMT_LOCALE;FMT_CONSTEVAL=;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;__STDC_LIMIT_MACROS;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport;G:\WORK\BuildNPCBOT\src\tools\dbimport;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database\Implementation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Updater;G:\WORK\BuildNPCBOT;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Asio;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Management;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Maps;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Models;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Configuration;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography\Authentication;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\DataStores;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic\LinkedReference;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Encoding;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\IPLocation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Metric;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Navigation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Threading;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Utilities;C:\local\boost_1_82_0;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\argon2;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\SFMT;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\utf8cpp;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\fmt\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\g3dlite\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Detour\Include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport;G:\WORK\BuildNPCBOT\src\tools\dbimport;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database\Implementation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Updater;G:\WORK\BuildNPCBOT;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Asio;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Management;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Maps;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Models;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Configuration;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography\Authentication;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\DataStores;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic\LinkedReference;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Encoding;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\IPLocation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Metric;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Navigation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Threading;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Utilities;C:\local\boost_1_82_0;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\argon2;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\SFMT;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\utf8cpp;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\fmt\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\g3dlite\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Detour\Include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory G:/WORK/BuildNPCBOT/bin/$(ConfigurationName)/configs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/WORK/AzerothCore-wotlk-with-NPCBots/src/tools/dbimport/dbimport.conf.dist G:/WORK/BuildNPCBOT/bin/$(ConfigurationName)/configs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\server\database\MinSizeRel\database.lib;C:\Program Files\MySQL\MySQL Server 8.0\lib\libmysql.lib;..\common\MinSizeRel\common.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_system-vc143-mt-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_filesystem-vc143-mt-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_program_options-vc143-mt-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_iostreams-vc143-mt-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_regex-vc143-mt-x64-1_82.lib;..\..\deps\argon2\MinSizeRel\argon2.lib;..\..\deps\SFMT\MinSizeRel\sfmt.lib;C:\Program Files\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\Program Files\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;..\..\deps\fmt\MinSizeRel\fmt.lib;..\..\deps\g3dlite\MinSizeRel\g3dlib.lib;..\..\deps\recastnavigation\Detour\MinSizeRel\Detour.lib;..\..\deps\zlib\MinSizeRel\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/WORK/BuildNPCBOT/src/tools/MinSizeRel/dbimport.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/WORK/BuildNPCBOT/bin/MinSizeRel/dbimport.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport;G:\WORK\BuildNPCBOT\src\tools\dbimport;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database\Implementation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Updater;G:\WORK\BuildNPCBOT;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Asio;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Management;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Maps;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Models;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Configuration;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography\Authentication;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\DataStores;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic\LinkedReference;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Encoding;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\IPLocation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Metric;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Navigation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Threading;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Utilities;C:\local\boost_1_82_0;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\argon2;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\SFMT;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\utf8cpp;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\fmt\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\g3dlite\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Detour\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/OpenSSL-Win64/include" /utf-8 /w34100 /w34101 /w34189 /w34389</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4985;4244;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CONF_DIR="C:/Program Files (x86)/AzerothCore";NO_CORE_FUNCS;ENABLE_VMAP_CHECKS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;AC_HAS_BROKEN_WSTRING_REGEX;SFMT_MEXP=19937;HAVE_SSE2;FMT_LOCALE;FMT_CONSTEVAL=;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;__STDC_LIMIT_MACROS;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CONF_DIR=\"C:/Program Files (x86)/AzerothCore\";NO_CORE_FUNCS;ENABLE_VMAP_CHECKS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;AC_HAS_BROKEN_WSTRING_REGEX;SFMT_MEXP=19937;HAVE_SSE2;FMT_LOCALE;FMT_CONSTEVAL=;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;__STDC_LIMIT_MACROS;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport;G:\WORK\BuildNPCBOT\src\tools\dbimport;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database\Implementation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Updater;G:\WORK\BuildNPCBOT;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Asio;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Management;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Maps;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Models;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Configuration;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography\Authentication;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\DataStores;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic\LinkedReference;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Encoding;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\IPLocation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Metric;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Navigation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Threading;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Utilities;C:\local\boost_1_82_0;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\argon2;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\SFMT;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\utf8cpp;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\fmt\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\g3dlite\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Detour\Include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport;G:\WORK\BuildNPCBOT\src\tools\dbimport;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Database\Implementation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\database\Updater;G:\WORK\BuildNPCBOT;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Asio;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Management;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Maps;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Collision\Models;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Configuration;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Cryptography\Authentication;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\DataStores;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Dynamic\LinkedReference;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Encoding;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\IPLocation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Logging;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Metric;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Navigation;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Platform;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Threading;G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Utilities;C:\local\boost_1_82_0;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\argon2;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\SFMT;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\utf8cpp;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\fmt\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\g3dlite\include;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\zlib;G:\WORK\AzerothCore-wotlk-with-NPCBots\deps\recastnavigation\Detour\Include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory G:/WORK/BuildNPCBOT/bin/$(ConfigurationName)/configs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy G:/WORK/AzerothCore-wotlk-with-NPCBots/src/tools/dbimport/dbimport.conf.dist G:/WORK/BuildNPCBOT/bin/$(ConfigurationName)/configs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\server\database\RelWithDebInfo\database.lib;C:\Program Files\MySQL\MySQL Server 8.0\lib\libmysql.lib;..\common\RelWithDebInfo\common.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_system-vc143-mt-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_filesystem-vc143-mt-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_program_options-vc143-mt-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_iostreams-vc143-mt-x64-1_82.lib;C:\local\boost_1_82_0\lib64-msvc-14.3\libboost_regex-vc143-mt-x64-1_82.lib;..\..\deps\argon2\RelWithDebInfo\argon2.lib;..\..\deps\SFMT\RelWithDebInfo\sfmt.lib;C:\Program Files\OpenSSL-Win64\lib\VC\libssl64MD.lib;C:\Program Files\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;..\..\deps\fmt\RelWithDebInfo\fmt.lib;..\..\deps\g3dlite\RelWithDebInfo\g3dlib.lib;..\..\deps\recastnavigation\Detour\RelWithDebInfo\Detour.lib;..\..\deps\zlib\RelWithDebInfo\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/WORK/BuildNPCBOT/src/tools/RelWithDebInfo/dbimport.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/WORK/BuildNPCBOT/bin/RelWithDebInfo/dbimport.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/WORK/AzerothCore-wotlk-with-NPCBots/src/tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/WORK/AzerothCore-wotlk-with-NPCBots -BG:/WORK/BuildNPCBOT --check-stamp-file G:/WORK/BuildNPCBOT/src/tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\WORK\BuildNPCBOT\src\tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/WORK/AzerothCore-wotlk-with-NPCBots/src/tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/WORK/AzerothCore-wotlk-with-NPCBots -BG:/WORK/BuildNPCBOT --check-stamp-file G:/WORK/BuildNPCBOT/src/tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\WORK\BuildNPCBOT\src\tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/WORK/AzerothCore-wotlk-with-NPCBots/src/tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/WORK/AzerothCore-wotlk-with-NPCBots -BG:/WORK/BuildNPCBOT --check-stamp-file G:/WORK/BuildNPCBOT/src/tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\WORK\BuildNPCBOT\src\tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/WORK/AzerothCore-wotlk-with-NPCBots/src/tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SG:/WORK/AzerothCore-wotlk-with-NPCBots -BG:/WORK/BuildNPCBOT --check-stamp-file G:/WORK/BuildNPCBOT/src/tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\WORK\BuildNPCBOT\src\tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\dbimport\Main.cpp" />
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging\WheatyExceptionReport.cpp" />
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging\WheatyExceptionReport.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\ZERO_CHECK.vcxproj">
+      <Project>{21C8BCCC-A888-34F5-AE64-1BA652CE4185}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\recastnavigation\Detour\Detour.vcxproj">
+      <Project>{FED4F309-C35D-3B56-A051-C099A1E0818E}</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\argon2\argon2.vcxproj">
+      <Project>{53D6B1F5-45D1-3CE8-9B0B-455DEBC1EEE0}</Project>
+      <Name>argon2</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\common\common.vcxproj">
+      <Project>{13A81F05-1E38-3960-B40F-1BD37E1491D0}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\server\database\database.vcxproj">
+      <Project>{9B3FB15B-198B-3D13-90EB-5866224FD328}</Project>
+      <Name>database</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\fmt\fmt.vcxproj">
+      <Project>{C54E2589-6C87-3D0B-B356-4BE65145130A}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\g3dlite\g3dlib.vcxproj">
+      <Project>{D587A6C3-4EBE-3F38-9AEA-CD130D1AFC7E}</Project>
+      <Name>g3dlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\src\genrev\revision.h.vcxproj">
+      <Project>{97D2C183-64C0-3B10-8A53-A1FFC725A163}</Project>
+      <Name>revision.h</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\SFMT\sfmt.vcxproj">
+      <Project>{72192D6E-E80A-3EC8-9A3E-4256F58246CF}</Project>
+      <Name>sfmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\WORK\BuildNPCBOT\deps\zlib\zlib.vcxproj">
+      <Project>{2DBE119B-55D0-3445-9730-8E30A09C764E}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

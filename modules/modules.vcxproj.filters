@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\WORK\BuildNPCBOT\modules\gen_scriptloader\static\ModulesLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-1v1-arena\src\1v1_loader.cpp">
+      <Filter>mod-1v1-arena\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-1v1-arena\src\npc_arena1v1.cpp">
+      <Filter>mod-1v1-arena\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-account-achievements\src\achievements_loader.cpp">
+      <Filter>mod-account-achievements\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-account-achievements\src\mod_achievements.cpp">
+      <Filter>mod-account-achievements\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-ah-bot\src\AuctionHouseBot.cpp">
+      <Filter>mod-ah-bot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-ah-bot\src\AuctionHouseBotScript.cpp">
+      <Filter>mod-ah-bot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-ah-bot\src\ah_bot_loader.cpp">
+      <Filter>mod-ah-bot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-ah-bot\src\cs_ah_bot.cpp">
+      <Filter>mod-ah-bot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-bg-item-reward\src\bg_item_reward_loader.cpp">
+      <Filter>mod-bg-item-reward\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-bg-item-reward\src\bg_item_reward_script.cpp">
+      <Filter>mod-bg-item-reward\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-challenge-modes\src\ChallengeModes.cpp">
+      <Filter>mod-challenge-modes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-challenge-modes\src\ChallengeModes_loader.cpp">
+      <Filter>mod-challenge-modes\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\ElunaLuaEngine_SC.cpp">
+      <Filter>mod-eluna\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\eluna_loader.cpp">
+      <Filter>mod-eluna\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\BattleGroundHooks.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\CreatureHooks.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ElunaEventMgr.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ElunaInstanceAI.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ElunaUtility.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\GameObjectHooks.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\GossipHooks.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\GroupHooks.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\GuildHooks.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\HttpManager.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\InstanceHooks.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ItemHooks.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\LuaEngine.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\LuaFunctions.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\PacketHooks.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\PlayerHooks.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ServerHooks.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\VehicleHooks.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\lmarshal.cpp">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lapi.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lauxlib.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lbaselib.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lbitlib.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lcode.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lcorolib.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lctype.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\ldblib.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\ldebug.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\ldo.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\ldump.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lfunc.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lgc.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\linit.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\liolib.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\llex.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lmathlib.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lmem.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\loadlib.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lobject.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lopcodes.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\loslib.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lparser.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lstate.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lstring.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lstrlib.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\ltable.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\ltablib.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\ltm.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lundump.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lvm.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lzio.c">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-gain-honor-guard\src\GHG_loader.cpp">
+      <Filter>mod-gain-honor-guard\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-gain-honor-guard\src\GainHonorGuard.cpp">
+      <Filter>mod-gain-honor-guard\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-guildfunds\src\mod_guildfunds.cpp">
+      <Filter>mod-guildfunds\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-guildfunds\src\mod_guildfunds_config.cpp">
+      <Filter>mod-guildfunds\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-guildfunds\src\mod_guildfunds_loot.cpp">
+      <Filter>mod-guildfunds\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-guildfunds\src\mod_guildfunds_player.cpp">
+      <Filter>mod-guildfunds\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-learn-spells\src\LS_loader.cpp">
+      <Filter>mod-learn-spells\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-learn-spells\src\mod_learnspells.cpp">
+      <Filter>mod-learn-spells\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-pvp-titles\src\mod_pvp_titles.cpp">
+      <Filter>mod-pvp-titles\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-pvp-titles\src\pvptitles_loader.cpp">
+      <Filter>mod-pvp-titles\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-random-enchants\src\RE_loader.cpp">
+      <Filter>mod-random-enchants\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-random-enchants\src\RandomEnchants.cpp">
+      <Filter>mod-random-enchants\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-reagent-bank\src\ReagentBank.cpp">
+      <Filter>mod-reagent-bank\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-reagent-bank\src\ReagentBank_loader.cpp">
+      <Filter>mod-reagent-bank\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-solo-lfg\src\LFG_loader.cpp">
+      <Filter>mod-solo-lfg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-solo-lfg\src\Lfg_Solo.cpp">
+      <Filter>mod-solo-lfg\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-transmog\src\Transmogrification.cpp">
+      <Filter>mod-transmog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-transmog\src\cs_transmog.cpp">
+      <Filter>mod-transmog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-transmog\src\transmog_loader.cpp">
+      <Filter>mod-transmog\src</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-transmog\src\transmog_scripts.cpp">
+      <Filter>mod-transmog\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\ModulesScriptLoader.h" />
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-ah-bot\src\AuctionHouseBot.h">
+      <Filter>mod-ah-bot\src</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-challenge-modes\src\ChallengeModes.h">
+      <Filter>mod-challenge-modes\src</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\AchievementMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\AuraMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\BattleGroundMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\BindingMap.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ChatHandlerMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\CorpseMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\CreatureMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ElunaCreatureAI.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ElunaEventMgr.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ElunaIncludes.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ElunaInstanceAI.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ElunaQueryMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ElunaTemplate.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ElunaUtility.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\GameObjectMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\GlobalMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\GroupMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\GuildMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\HookHelpers.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\Hooks.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\HttpManager.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ItemMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ItemTemplateMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\LuaEngine.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\MapMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\ObjectMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\PlayerMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\QuestMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\RollMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\SpellMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\UnitMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\VehicleMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\WorldObjectMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\WorldPacketMethods.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\lmarshal.h">
+      <Filter>mod-eluna\src\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\libs\httplib.h">
+      <Filter>mod-eluna\src\LuaEngine\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\LuaEngine\libs\rigtorp\SPSCQueue.h">
+      <Filter>mod-eluna\src\LuaEngine\libs\rigtorp</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lapi.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lauxlib.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lcode.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lctype.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\ldebug.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\ldo.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lfunc.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lgc.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\llex.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\llimits.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lmem.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lobject.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lopcodes.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lparser.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lstate.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lstring.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\ltable.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\ltm.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lua.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lua.hpp">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\luaconf.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lualib.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lundump.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lvm.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-eluna\src\lualib\lzio.h">
+      <Filter>mod-eluna\src\lualib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-guildfunds\src\mod_guildfunds.h">
+      <Filter>mod-guildfunds\src</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-reagent-bank\src\ReagentBank.h">
+      <Filter>mod-reagent-bank\src</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\mod-transmog\src\Transmogrification.h">
+      <Filter>mod-transmog\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\modules\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0034CBE-ACEB-382F-AA3E-B8AFC018FB8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-1v1-arena">
+      <UniqueIdentifier>{738ADAC2-EC25-3311-BE0B-CE0313A002A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-1v1-arena\src">
+      <UniqueIdentifier>{9CBC16D2-D89E-3837-A073-6E9AD7D09C3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-account-achievements">
+      <UniqueIdentifier>{412B92C5-9657-347F-97E3-AF20A7DF80E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-account-achievements\src">
+      <UniqueIdentifier>{C873ABD1-4BC6-3F57-BC69-7B095AF75126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-ah-bot">
+      <UniqueIdentifier>{78C9AA81-CF16-354E-B450-E66BB01AD316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-ah-bot\src">
+      <UniqueIdentifier>{C3A78B6D-8AF0-3FEB-BFBC-C6FBC6862670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-bg-item-reward">
+      <UniqueIdentifier>{2F882D03-ACBF-3B06-A7CE-B85D6B13523E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-bg-item-reward\src">
+      <UniqueIdentifier>{7E386A95-B631-3362-B19F-F4AACD25505D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-challenge-modes">
+      <UniqueIdentifier>{7F177FCA-82C7-3855-921D-72D29245AC44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-challenge-modes\src">
+      <UniqueIdentifier>{A04D9281-D62F-3BFD-BEC9-4381BF7D7EBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-eluna">
+      <UniqueIdentifier>{3AC32A2B-B5BF-387B-825F-77BAC2164D57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-eluna\src">
+      <UniqueIdentifier>{DA4D300E-9C28-3A52-8132-AAA82E2A3AC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-eluna\src\LuaEngine">
+      <UniqueIdentifier>{C66166ED-CAA7-3EEF-9B8B-2DDBBAFAAB29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-eluna\src\LuaEngine\libs">
+      <UniqueIdentifier>{893A3B68-AC97-36E0-B302-424B0C03E76E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-eluna\src\LuaEngine\libs\rigtorp">
+      <UniqueIdentifier>{3F5FE559-69D4-37FD-B529-7DCB94890275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-eluna\src\lualib">
+      <UniqueIdentifier>{FFF052DA-D3F1-3D12-BF3C-04EFF8E307F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-gain-honor-guard">
+      <UniqueIdentifier>{C9C1D01B-5ACD-3605-991F-CF745950046C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-gain-honor-guard\src">
+      <UniqueIdentifier>{271F3136-B821-39A7-B7A8-1A77F7638D71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-guildfunds">
+      <UniqueIdentifier>{9BAF852F-2388-337B-BE22-AB3BF1B3DC9E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-guildfunds\src">
+      <UniqueIdentifier>{07CD164B-46A9-374E-BEAF-B04A3830A88A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-learn-spells">
+      <UniqueIdentifier>{6CE6A8D6-7CDE-34FF-81D5-23D7A0201FF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-learn-spells\src">
+      <UniqueIdentifier>{A697F4FD-544C-35C3-AFDB-63F345EC2D6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-pvp-titles">
+      <UniqueIdentifier>{4E675332-DA16-31BB-B696-FDDF6A252463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-pvp-titles\src">
+      <UniqueIdentifier>{99D8C3B5-C0BE-3B16-ACA6-FC96E3C300CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-random-enchants">
+      <UniqueIdentifier>{C9862D5B-EE70-3CCD-863B-A9C821C63AD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-random-enchants\src">
+      <UniqueIdentifier>{DC36405C-C776-3257-A317-0A2917887A8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-reagent-bank">
+      <UniqueIdentifier>{E90DB838-FD8A-3384-9ADE-9C8173123B51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-reagent-bank\src">
+      <UniqueIdentifier>{D421ADCD-432C-393B-86F0-D4AD1175E228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-solo-lfg">
+      <UniqueIdentifier>{15C0B2B8-9E2E-368E-AE81-8863747BA087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-solo-lfg\src">
+      <UniqueIdentifier>{8543F989-C0D7-3998-831F-D7528AA1089B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-transmog">
+      <UniqueIdentifier>{E5058B5C-3F85-3FCD-AFD4-C2E502E11BBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod-transmog\src">
+      <UniqueIdentifier>{FDCC5E84-C5DC-310E-B121-F24520326C94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

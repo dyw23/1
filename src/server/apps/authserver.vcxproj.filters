@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\WORK\BuildNPCBOT\src\server\apps\CMakeFiles\authserver.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\authserver\Main.cpp">
+      <Filter>authserver</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\authserver\Authentication\AuthCodes.cpp">
+      <Filter>authserver\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\authserver\Server\AuthSession.cpp">
+      <Filter>authserver\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging\WheatyExceptionReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\authserver\resource.h">
+      <Filter>authserver</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\authserver\Authentication\AuthCodes.h">
+      <Filter>authserver\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\authserver\Server\AuthSession.h">
+      <Filter>authserver\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\authserver\Server\AuthSocketMgr.h">
+      <Filter>authserver\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging\WheatyExceptionReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\BuildNPCBOT\src\server\apps\CMakeFiles\authserver.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\BuildNPCBOT\src\server\apps\CMakeFiles\authserver.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\BuildNPCBOT\src\server\apps\CMakeFiles\authserver.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\BuildNPCBOT\src\server\apps\CMakeFiles\authserver.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\apps\authserver\authserver.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{61E4FF88-FDB2-3594-9978-4B89E2FFBB22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{43B856E9-C690-3D51-B9FA-CC3FB2A4611C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0034CBE-ACEB-382F-AA3E-B8AFC018FB8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="authserver">
+      <UniqueIdentifier>{476D502D-5F26-332C-BE2A-C1ED4C594F12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="authserver\Authentication">
+      <UniqueIdentifier>{475C1FB5-2A0F-3FD7-91B5-3FD83D2AEE15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="authserver\Server">
+      <UniqueIdentifier>{DC969A5D-965C-3675-87E0-BDC792473E5F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

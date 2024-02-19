@@ -1,0 +1,2184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\WORK\BuildNPCBOT\src\server\game\CMakeFiles\game.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CreatureAI.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CreatureAIRegistry.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CreatureAISelector.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\enuminfo_CreatureAI.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\CombatAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\GameObjectAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\GuardAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\PassiveAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\PetAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\ReactorAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\TotemAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\UnitAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_archmage_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_bm_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_crypt_lord_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_dark_ranger_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_death_knight_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_dreadlord_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_druid_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_hunter_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_mage_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_necromancer_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_paladin_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_priest_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_rogue_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_sea_witch_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_shaman_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_spellbreaker_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_sphynx_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_warlock_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_warrior_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botcommands.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botdatamgr.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botdpstracker.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botdump.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botgearscore.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botgiver.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botmgr.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botspell.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botwanderful.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_archmage.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_crypt_lord.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_dark_ranger.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_death_knight.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_dreadlord.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_druid.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_hunter.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_mage.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_necromancer.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_priest.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_sea_witch.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_shaman.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_warlock.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\ScriptedAI\ScriptedCreature.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\ScriptedAI\ScriptedEscortAI.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\ScriptedAI\ScriptedGossip.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\SmartScripts\SmartAI.cpp">
+      <Filter>AI\SmartScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\SmartScripts\SmartScript.cpp">
+      <Filter>AI\SmartScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\SmartScripts\SmartScriptMgr.cpp">
+      <Filter>AI\SmartScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Accounts\AccountMgr.cpp">
+      <Filter>Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Achievements\AchievementMgr.cpp">
+      <Filter>Achievements</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Addons\AddonMgr.cpp">
+      <Filter>Addons</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\ArenaSpectator\ArenaSpectator.cpp">
+      <Filter>ArenaSpectator</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AuctionHouse\AuctionHouseMgr.cpp">
+      <Filter>AuctionHouse</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Autobroadcast\AutobroadcastMgr.cpp">
+      <Filter>Autobroadcast</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlefield\Battlefield.cpp">
+      <Filter>Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlefield\BattlefieldHandler.cpp">
+      <Filter>Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlefield\BattlefieldMgr.cpp">
+      <Filter>Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlefield\Zones\BattlefieldWG.cpp">
+      <Filter>Battlefield\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Arena.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\ArenaTeam.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\ArenaTeamMgr.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Battleground.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\BattlegroundMgr.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\BattlegroundQueue.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\BattlegroundSpamProtect.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\enuminfo_ArenaTeam.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundAB.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundAV.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundBE.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundDS.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundEY.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundIC.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundNA.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundRL.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundRV.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundSA.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundWS.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Cache\CharacterCache.cpp">
+      <Filter>Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Cache\WhoListCacheMgr.cpp">
+      <Filter>Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Calendar\CalendarMgr.cpp">
+      <Filter>Calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\Chat.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\HyperlinkTags.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\Hyperlinks.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\Channels\Channel.cpp">
+      <Filter>Chat\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\Channels\ChannelMgr.cpp">
+      <Filter>Chat\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\Channels\enuminfo_Channel.cpp">
+      <Filter>Chat\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\ChatCommands\ChatCommand.cpp">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\ChatCommands\ChatCommandArgs.cpp">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\ChatCommands\ChatCommandHelpers.cpp">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\ChatCommands\ChatCommandTags.cpp">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Combat\HostileRefMgr.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Combat\ThreatMgr.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Conditions\ConditionMgr.cpp">
+      <Filter>Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Conditions\DisableMgr.cpp">
+      <Filter>Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DataStores\DBCStores.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DataStores\M2Stores.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DungeonFinding\LFG.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DungeonFinding\LFGGroupData.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DungeonFinding\LFGMgr.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DungeonFinding\LFGPlayerData.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DungeonFinding\LFGQueue.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DungeonFinding\LFGScripts.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Corpse\Corpse.cpp">
+      <Filter>Entities\Corpse</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Creature\Creature.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Creature\CreatureGroups.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Creature\GossipDef.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Creature\TemporarySummon.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Creature\enuminfo_CreatureData.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\DynamicObject\DynamicObject.cpp">
+      <Filter>Entities\DynamicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\GameObject\GameObject.cpp">
+      <Filter>Entities\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Item\Item.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Item\ItemEnchantmentMgr.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Item\enuminfo_Item.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Item\Container\Bag.cpp">
+      <Filter>Entities\Item\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\Object.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\ObjectGuid.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\ObjectPosSelector.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\Position.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\Updates\UpdateData.cpp">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\Updates\UpdateFieldFlags.cpp">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Pet\Pet.cpp">
+      <Filter>Entities\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\CinematicMgr.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\KillRewarder.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\Player.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\PlayerGossip.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\PlayerMisc.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\PlayerQuest.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\PlayerSettings.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\PlayerStorage.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\PlayerTaxi.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\PlayerUpdates.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\SocialMgr.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\TradeData.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Totem\Totem.cpp">
+      <Filter>Entities\Totem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Transport\Transport.cpp">
+      <Filter>Entities\Transport</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Unit\StatSystem.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Unit\Unit.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Unit\enuminfo_Unit.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Vehicle\Vehicle.cpp">
+      <Filter>Entities\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Events\GameEventMgr.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Globals\ObjectAccessor.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Globals\ObjectMgr.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\ObjectGridLoader.cpp">
+      <Filter>Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\Notifiers\GridNotifiers.cpp">
+      <Filter>Grids\Notifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Groups\Group.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Groups\GroupMgr.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Groups\GroupReference.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Guilds\Guild.cpp">
+      <Filter>Guilds</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Guilds\GuildMgr.cpp">
+      <Filter>Guilds</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\AddonHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\ArenaTeamHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\AuctionHouseHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\AuthHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\BankHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\BattleGroundHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\CalendarHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\ChannelHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\CharacterHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\ChatHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\CombatHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\DuelHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\GroupHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\GuildHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\ItemHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\LFGHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\LootHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\MailHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\MiscHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\MovementHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\NPCHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\PetHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\PetitionsHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\QueryHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\QuestHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\ReferAFriendHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\SkillHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\Socialhandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\SpellHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\TaxiHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\TicketHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\TradeHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\VehicleHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\VoiceChatHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Instances\InstanceSaveMgr.cpp">
+      <Filter>Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Instances\InstanceScript.cpp">
+      <Filter>Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Loot\LootItemStorage.cpp">
+      <Filter>Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Loot\LootMgr.cpp">
+      <Filter>Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Mails\Mail.cpp">
+      <Filter>Mails</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\AreaBoundary.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\Map.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\MapInstanced.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\MapMgr.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\MapUpdater.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\TransportMgr.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Misc\AsyncAuctionListing.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Misc\BanMgr.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Misc\DynamicVisibility.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Misc\GameGraveyard.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Miscellaneous\Formulas.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Modules\ModuleMgr.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Motd\MotdMgr.cpp">
+      <Filter>Motd</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\FollowerReference.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MotionMaster.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerator.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\EscortMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\PathGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\PointMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\MoveSpline.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\MoveSplineInit.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\MovementPacketBuilder.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\MovementUtil.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\Spline.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Waypoints\WaypointMgr.cpp">
+      <Filter>Movement\Waypoints</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\OutdoorPvP\OutdoorPvP.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\OutdoorPvP\OutdoorPvPMgr.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Petitions\PetitionMgr.cpp">
+      <Filter>Petitions</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Pools\PoolMgr.cpp">
+      <Filter>Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Quests\QuestDef.cpp">
+      <Filter>Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Quests\enuminfo_QuestDef.cpp">
+      <Filter>Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Reputation\ReputationMgr.cpp">
+      <Filter>Reputation</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\MapScripts.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptMgr.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptObject.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptSystem.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AccountScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AchievementCriteriaScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AchievementScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllBattlegroundScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllCommandScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllCreatureScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllGameObjectScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllItemScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllMapScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllSpellScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AreaTriggerScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ArenaScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ArenaTeamScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AuctionHouseScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\BattlegroundMapScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\BattlegroundScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\CommandScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ConditionScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\CreatureScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\DatabaseScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\DynamicObjectScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ElunaScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\FormulaScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\GameEventScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\GameObjectScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\GlobalScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\GroupScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\GuildScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\InstanceMapScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\LootScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\MailScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\MiscScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ModuleScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\MovementHandlerScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\OutdoorPvPScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\PetScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\PlayerScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ServerScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\SpellScriptLoader.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\TransportScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\UnitScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\VehicleScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\WeatherScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\WorldMapScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\WorldObjectScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\WorldScript.cpp">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packet.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\WorldSession.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\WorldSocket.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\WorldSocketMgr.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\BankPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\CharacterPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\ChatPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\CombatLogPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\CombatPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\GuildPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\LFGPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\MiscPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\PacketUtilities.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\PetPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\TotemPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\WorldStatePackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Protocol\Opcodes.cpp">
+      <Filter>Server\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Protocol\PacketLog.cpp">
+      <Filter>Server\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Skills\SkillDiscovery.cpp">
+      <Filter>Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Skills\SkillExtraItems.cpp">
+      <Filter>Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\Spell.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\SpellEffects.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\SpellInfo.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\SpellInfoCorrections.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\SpellMgr.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\SpellScript.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\Auras\SpellAuraEffects.cpp">
+      <Filter>Spells\Auras</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\Auras\SpellAuras.cpp">
+      <Filter>Spells\Auras</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Texts\ChatTextBuilder.cpp">
+      <Filter>Texts</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Texts\CreatureTextMgr.cpp">
+      <Filter>Texts</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Tickets\TicketMgr.cpp">
+      <Filter>Tickets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Time\GameTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Time\UpdateTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Tools\CharacterDatabaseCleaner.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Tools\PlayerDump.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\Warden.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\WardenCheckMgr.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\WardenMac.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\WardenPayloadMgr.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\WardenWin.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\enuminfo_WardenCheckMgr.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Weather\Weather.cpp">
+      <Filter>Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Weather\WeatherMgr.cpp">
+      <Filter>Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\World\World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CreatureAI.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CreatureAIFactory.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CreatureAIImpl.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CreatureAIRegistry.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CreatureAISelector.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\GameObjectAIFactory.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\CombatAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\GameObjectAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\GuardAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\PassiveAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\PetAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\ReactorAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\TotemAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\CoreAI\UnitAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_Events.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_GridNotifiers.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bot_ai.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botcommon.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botdatamgr.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botdpstracker.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botdump.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botgearscore.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botgossip.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botmgr.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botspell.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bottext.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\botwanderful.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\bpet_ai.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\NpcBots\lib\bottraits.h">
+      <Filter>AI\NpcBots\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\ScriptedAI\ScriptedCreature.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\ScriptedAI\ScriptedEscortAI.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\ScriptedAI\ScriptedGossip.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\SmartScripts\SmartAI.h">
+      <Filter>AI\SmartScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\SmartScripts\SmartScript.h">
+      <Filter>AI\SmartScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AI\SmartScripts\SmartScriptMgr.h">
+      <Filter>AI\SmartScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Accounts\AccountMgr.h">
+      <Filter>Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Achievements\AchievementMgr.h">
+      <Filter>Achievements</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Addons\AddonMgr.h">
+      <Filter>Addons</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\ArenaSpectator\ArenaSpectator.h">
+      <Filter>ArenaSpectator</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\AuctionHouse\AuctionHouseMgr.h">
+      <Filter>AuctionHouse</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Autobroadcast\AutobroadcastMgr.h">
+      <Filter>Autobroadcast</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlefield\Battlefield.h">
+      <Filter>Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlefield\BattlefieldMgr.h">
+      <Filter>Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlefield\Zones\BattlefieldWG.h">
+      <Filter>Battlefield\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Arena.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\ArenaScore.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\ArenaTeam.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\ArenaTeamMgr.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Battleground.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\BattlegroundMgr.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\BattlegroundQueue.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\BattlegroundScore.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\BattlegroundSpamProtect.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundAB.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundAV.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundBE.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundDS.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundEY.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundIC.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundNA.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundRL.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundRV.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundSA.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Battlegrounds\Zones\BattlegroundWS.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Cache\CharacterCache.h">
+      <Filter>Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Cache\WhoListCacheMgr.h">
+      <Filter>Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Calendar\CalendarMgr.h">
+      <Filter>Calendar</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\Chat.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\Hyperlinks.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\Channels\Channel.h">
+      <Filter>Chat\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\Channels\ChannelMgr.h">
+      <Filter>Chat\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\ChatCommands\ChatCommand.h">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\ChatCommands\ChatCommandArgs.h">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\ChatCommands\ChatCommandHelpers.h">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Chat\ChatCommands\ChatCommandTags.h">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Combat\HostileRefMgr.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Combat\ThreatMgr.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Combat\UnitEvents.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Conditions\ConditionMgr.h">
+      <Filter>Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Conditions\DisableMgr.h">
+      <Filter>Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DataStores\DBCStores.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DataStores\M2Stores.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DataStores\M2Structure.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DungeonFinding\LFG.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DungeonFinding\LFGGroupData.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DungeonFinding\LFGMgr.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DungeonFinding\LFGPlayerData.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DungeonFinding\LFGQueue.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\DungeonFinding\LFGScripts.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Corpse\Corpse.h">
+      <Filter>Entities\Corpse</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Creature\Creature.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Creature\CreatureData.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Creature\CreatureGroups.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Creature\GossipDef.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Creature\TemporarySummon.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\DynamicObject\DynamicObject.h">
+      <Filter>Entities\DynamicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\GameObject\GameObject.h">
+      <Filter>Entities\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\GameObject\GameObjectData.h">
+      <Filter>Entities\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Item\Item.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Item\ItemEnchantmentMgr.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Item\ItemTemplate.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Item\Container\Bag.h">
+      <Filter>Entities\Item\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\Object.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\ObjectDefines.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\ObjectGuid.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\ObjectPosSelector.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\Position.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\Updates\UpdateData.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\Updates\UpdateFieldFlags.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\Updates\UpdateFields.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Object\Updates\UpdateMask.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Pet\Pet.h">
+      <Filter>Entities\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Pet\PetDefines.h">
+      <Filter>Entities\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\CinematicMgr.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\KillRewarder.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\Player.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\PlayerSettings.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\PlayerTaxi.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\SocialMgr.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Player\TradeData.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Totem\Totem.h">
+      <Filter>Entities\Totem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Transport\Transport.h">
+      <Filter>Entities\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Unit\Unit.h">
+      <Filter>Entities\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Vehicle\Vehicle.h">
+      <Filter>Entities\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Entities\Vehicle\VehicleDefines.h">
+      <Filter>Entities\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Events\GameEventMgr.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Globals\ObjectAccessor.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Globals\ObjectMgr.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\Grid.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\GridDefines.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\GridLoader.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\GridRefMgr.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\GridReference.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\NGrid.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\ObjectGridLoader.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\Cells\Cell.h">
+      <Filter>Grids\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\Cells\CellImpl.h">
+      <Filter>Grids\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\Notifiers\GridNotifiers.h">
+      <Filter>Grids\Notifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Grids\Notifiers\GridNotifiersImpl.h">
+      <Filter>Grids\Notifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Groups\Group.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Groups\GroupMgr.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Groups\GroupRefMgr.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Groups\GroupReference.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Guilds\Guild.h">
+      <Filter>Guilds</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Guilds\GuildMgr.h">
+      <Filter>Guilds</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\AddonHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Handlers\NPCHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Instances\InstanceSaveMgr.h">
+      <Filter>Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Instances\InstanceScript.h">
+      <Filter>Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Loot\LootItemStorage.h">
+      <Filter>Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Loot\LootMgr.h">
+      <Filter>Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Mails\Mail.h">
+      <Filter>Mails</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\AreaBoundary.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\Map.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\MapInstanced.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\MapMgr.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\MapRefMgr.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\MapReference.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\MapUpdater.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\TransportMgr.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Maps\ZoneScript.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Misc\AsyncAuctionListing.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Misc\BanMgr.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Misc\DynamicVisibility.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Misc\GameGraveyard.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Miscellaneous\Formulas.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Miscellaneous\Language.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Modules\ModuleMgr.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Motd\MotdMgr.h">
+      <Filter>Motd</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\FollowerRefMgr.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\FollowerReference.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MotionMaster.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerator.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\EscortMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\PathGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\PointMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\MoveSpline.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\MoveSplineFlag.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\MoveSplineInit.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\MoveSplineInitArgs.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\MovementPacketBuilder.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\MovementTypedefs.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\Spline.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Spline\SplineImpl.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Movement\Waypoints\WaypointMgr.h">
+      <Filter>Movement\Waypoints</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\OutdoorPvP\OutdoorPvP.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\OutdoorPvP\OutdoorPvPMgr.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Petitions\PetitionMgr.h">
+      <Filter>Petitions</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Pools\PoolMgr.h">
+      <Filter>Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Quests\QuestDef.h">
+      <Filter>Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Reputation\ReputationMgr.h">
+      <Filter>Reputation</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptMgr.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptMgrMacros.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptObject.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptObjectFwd.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptSystem.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AccountScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AchievementCriteriaScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AchievementScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllBattlegroundScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllCommandScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllCreatureScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllGameObjectScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllItemScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllMapScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllScriptsObjects.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AllSpellScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AreaTriggerScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ArenaScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ArenaTeamScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\AuctionHouseScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\BattlegroundMapScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\BattlegroundScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\CommandScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ConditionScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\CreatureScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\DatabaseScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\DynamicObjectScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ElunaScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\FormulaScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\GameEventScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\GameObjectScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\GlobalScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\GroupScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\GuildScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\InstanceMapScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ItemScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\LootScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\MailScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\MiscScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ModuleScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\MovementHandlerScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\OutdoorPvPScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\PetScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\PlayerScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\ServerScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\SpellScriptLoader.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\TransportScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\UnitScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\VehicleScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\WeatherScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\WorldMapScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\WorldObjectScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Scripting\ScriptDefines\WorldScript.h">
+      <Filter>Scripting\ScriptDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packet.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\WorldPacket.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\WorldSession.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\WorldSocket.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\WorldSocketMgr.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\AllPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\BankPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\CharacterPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\ChatPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\CombatLogPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\CombatPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\GuildPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\LFGPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\MiscPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\PacketUtilities.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\PetPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\TotemPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Packets\WorldStatePackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Protocol\Opcodes.h">
+      <Filter>Server\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Protocol\PacketLog.h">
+      <Filter>Server\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Server\Protocol\ServerPktHeader.h">
+      <Filter>Server\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Skills\SkillDiscovery.h">
+      <Filter>Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Skills\SkillExtraItems.h">
+      <Filter>Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\Spell.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\SpellDefines.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\SpellInfo.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\SpellMgr.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\SpellScript.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\Auras\SpellAuraDefines.h">
+      <Filter>Spells\Auras</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\Auras\SpellAuraEffects.h">
+      <Filter>Spells\Auras</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Spells\Auras\SpellAuras.h">
+      <Filter>Spells\Auras</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Texts\ChatTextBuilder.h">
+      <Filter>Texts</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Texts\CreatureTextMgr.h">
+      <Filter>Texts</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Tickets\TicketMgr.h">
+      <Filter>Tickets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Time\GameTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Time\UpdateTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Tools\CharacterDatabaseCleaner.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Tools\PlayerDump.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\Warden.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\WardenCheckMgr.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\WardenMac.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\WardenPayloadMgr.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\WardenWin.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\Modules\WardenModuleMac.h">
+      <Filter>Warden\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Warden\Modules\WardenModuleWin.h">
+      <Filter>Warden\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Weather\Weather.h">
+      <Filter>Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\Weather\WeatherMgr.h">
+      <Filter>Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\World\IWorld.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\World\World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\BuildNPCBOT\src\server\game\CMakeFiles\game.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\BuildNPCBOT\src\server\game\CMakeFiles\game.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\BuildNPCBOT\src\server\game\CMakeFiles\game.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\BuildNPCBOT\src\server\game\CMakeFiles\game.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\game\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AI">
+      <UniqueIdentifier>{85159937-6FDE-35B5-AEDF-700CB18BC04D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\CoreAI">
+      <UniqueIdentifier>{FE7F3296-24A1-3479-95BF-5B8020E6BA00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\NpcBots">
+      <UniqueIdentifier>{B130EC38-55AB-3C7A-B91B-2E757792074C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\NpcBots\lib">
+      <UniqueIdentifier>{CB64F864-DE4F-3813-A618-FB3BB110A8D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptedAI">
+      <UniqueIdentifier>{E1869217-ED55-344E-B582-F76A7D8BC771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\SmartScripts">
+      <UniqueIdentifier>{0338BB81-C423-3074-AC78-5A38CD5D6711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Accounts">
+      <UniqueIdentifier>{B9A3CF2A-D4D2-3E0A-968B-1AB735EA513D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Achievements">
+      <UniqueIdentifier>{27711B53-4FA7-3C07-8F13-4D0583341339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons">
+      <UniqueIdentifier>{8238181B-97F5-3E18-AEC5-5C252471211A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArenaSpectator">
+      <UniqueIdentifier>{74D28FA9-B567-3031-B6CD-F313B4716E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AuctionHouse">
+      <UniqueIdentifier>{530D0954-8F1F-3AFF-B423-60AFA4183601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Autobroadcast">
+      <UniqueIdentifier>{39C2151E-E297-3F65-B2DA-3913FE63643C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlefield">
+      <UniqueIdentifier>{2D1D9571-9A02-31C4-B6D8-C44DBCC0EDE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlefield\Zones">
+      <UniqueIdentifier>{B61B2970-C54D-3FE2-AE66-B756534FCA53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlegrounds">
+      <UniqueIdentifier>{CEB4DAA0-8061-3803-BB34-67F15633D15C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlegrounds\Zones">
+      <UniqueIdentifier>{68AF50C9-75B3-3219-BA01-90011CD0F466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cache">
+      <UniqueIdentifier>{8717F40B-FCA7-3005-9D16-D86B47C61288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calendar">
+      <UniqueIdentifier>{6D533494-A183-3030-BCFB-C686C1B4CCED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat">
+      <UniqueIdentifier>{6A6D2D5C-BF85-391B-AAAB-BF7C4C320D8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat\Channels">
+      <UniqueIdentifier>{3919DB3C-588B-3879-83E0-95C637D8BEE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat\ChatCommands">
+      <UniqueIdentifier>{BB75D921-4518-3C6C-AF39-C25F97167373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Combat">
+      <UniqueIdentifier>{15E23B5A-6F60-3E1C-96A2-27F294F5FF1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Conditions">
+      <UniqueIdentifier>{6E58ECDF-642C-3495-BCB3-06FA334FD56B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStores">
+      <UniqueIdentifier>{2ADD9CDD-8981-37E0-AEB7-D8025764DA54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DungeonFinding">
+      <UniqueIdentifier>{D04D1983-6A29-3F53-8AE9-5507129A5D1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{64062C8D-CA94-3AA9-8257-AF04F8CBAC20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Corpse">
+      <UniqueIdentifier>{562C9F3B-9D56-345E-810D-6C4F7ECADB6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Creature">
+      <UniqueIdentifier>{7163EC80-A1C6-3DC3-9461-08B0A8135EAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\DynamicObject">
+      <UniqueIdentifier>{23F654C6-9696-3D2B-B442-3E98154D6B5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\GameObject">
+      <UniqueIdentifier>{F4B776A2-0342-3C9C-B717-81A7C5EF92EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Item">
+      <UniqueIdentifier>{D8E812EC-6AF5-3999-9D60-379C27553C40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Item\Container">
+      <UniqueIdentifier>{718C7951-A5FA-3E8E-B779-94EE73361A36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Object">
+      <UniqueIdentifier>{F06A5526-6AD7-3D9B-8BDA-817A527B03E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Object\Updates">
+      <UniqueIdentifier>{DDDA9A1F-A571-3FB7-B07D-9CC3D924C6D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Pet">
+      <UniqueIdentifier>{481301CF-19D7-353A-B109-0C86DB2C610C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Player">
+      <UniqueIdentifier>{B9B332B5-E74F-30A3-A562-CBF300A75444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Totem">
+      <UniqueIdentifier>{E54BB05E-2AD5-3256-B1A2-174C8A31CB1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Transport">
+      <UniqueIdentifier>{393415E5-9238-3ADA-9DD9-48EEBA8B1EDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Unit">
+      <UniqueIdentifier>{CBC0148E-9787-3880-AD26-04921E07BC3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Vehicle">
+      <UniqueIdentifier>{FE02DF0A-2891-3201-94B9-F1D10DC28BFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{CAF3763A-FCFB-3EEC-8341-4D066C5AB09A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{87D33E12-8A10-3F2E-900D-8D8BF2A5A44E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids">
+      <UniqueIdentifier>{D08D0D37-F878-3840-81F3-2795324B376D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids\Cells">
+      <UniqueIdentifier>{E992D812-BB0C-39DE-ACAB-162C0E13FB54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids\Notifiers">
+      <UniqueIdentifier>{3A346743-057A-3FE5-A1BE-F113D1C3C8A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Groups">
+      <UniqueIdentifier>{E15A6F3E-9628-3C82-9986-5651491D4D40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guilds">
+      <UniqueIdentifier>{B67210EB-7DCD-3D9D-9981-3C0CC1E9CA8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handlers">
+      <UniqueIdentifier>{2F2016AE-879C-3E19-8069-3C90E0DA83CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instances">
+      <UniqueIdentifier>{15C50030-2109-32B7-8F21-CACE87BF6248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loot">
+      <UniqueIdentifier>{9990B784-8E8E-3A87-A75C-C70C0712C879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mails">
+      <UniqueIdentifier>{0F14F347-F505-3508-82E0-4AFE8CE81D23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{6731E7DC-C569-31DB-8956-3951C8AC3FA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{DC9A79BD-0A46-37D9-B55E-B7E1041760D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{CB097F2F-DCC1-3354-BDE4-EBDB89224774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{BF2B9FDE-0385-389D-A8BE-15E07B0AF24B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Motd">
+      <UniqueIdentifier>{84E24645-137A-339E-B488-511C32823932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement">
+      <UniqueIdentifier>{5FB40554-E4DF-3040-BD4F-364461D22061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement\MovementGenerators">
+      <UniqueIdentifier>{61382309-B6D2-3301-9031-A5814310F569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement\Spline">
+      <UniqueIdentifier>{B0911774-82B6-3E19-8931-218650664246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement\Waypoints">
+      <UniqueIdentifier>{3CF4D8A1-2A1C-3EA2-A2F2-6D325EA0E2FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OutdoorPvP">
+      <UniqueIdentifier>{68F42DFD-8D65-3EE8-A776-C32E5D8E6848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Petitions">
+      <UniqueIdentifier>{68DCE4E3-ACD0-359C-A4F7-B86677CE4C46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pools">
+      <UniqueIdentifier>{EA3998BD-0A4C-3CB9-B1A8-845265F841B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{43B856E9-C690-3D51-B9FA-CC3FB2A4611C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quests">
+      <UniqueIdentifier>{92804E29-422D-3941-A664-7402602DCE0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reputation">
+      <UniqueIdentifier>{7DE90B33-9441-37AB-99C6-25EAD9693B76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting">
+      <UniqueIdentifier>{F80BB42E-1F45-3E7E-8F73-CC787522116A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\ScriptDefines">
+      <UniqueIdentifier>{63641E28-A948-3C47-856E-AD547CA36FC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{94B5F2C5-53AD-36D9-9706-3C65771F600F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Packets">
+      <UniqueIdentifier>{4B3E3120-3395-3ABB-9775-7328C5A495F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Protocol">
+      <UniqueIdentifier>{D8B4C0D6-0D1D-3F6C-85A2-BEC36A8D9DA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skills">
+      <UniqueIdentifier>{00080464-111D-3B9C-8A05-A4BDECB5F4BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0034CBE-ACEB-382F-AA3E-B8AFC018FB8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells">
+      <UniqueIdentifier>{3E0FC2E8-235C-3555-A34D-93BAFFD0A1C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells\Auras">
+      <UniqueIdentifier>{DBF2A434-6826-3B62-BE5C-6907D0281767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texts">
+      <UniqueIdentifier>{49115631-378E-3068-8752-0465F139B18C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tickets">
+      <UniqueIdentifier>{61AA6C76-C265-331C-BBAE-CC2C7C414CCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{EC790ED8-3E22-36CA-BF52-B0940218B9CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{317163C6-60C9-3AF3-B397-BFE523E6D127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Warden">
+      <UniqueIdentifier>{75FE1DB7-703F-3277-8A6F-E738FB1FAF1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Warden\Modules">
+      <UniqueIdentifier>{96CE6841-0346-3E43-B9BF-844DEBCCED5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weather">
+      <UniqueIdentifier>{A3C99530-BF56-3868-9C9C-EF3A6C1E9C55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{D122EDDF-A3FE-3AD2-9779-2E157F00491F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

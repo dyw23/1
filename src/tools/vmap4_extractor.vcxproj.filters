@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\adtfile.cpp">
+      <Filter>vmap4_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\dbcfile.cpp">
+      <Filter>vmap4_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\gameobject_extract.cpp">
+      <Filter>vmap4_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\model.cpp">
+      <Filter>vmap4_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\mpq_libmpq.cpp">
+      <Filter>vmap4_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\vmapexport.cpp">
+      <Filter>vmap4_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\wdtfile.cpp">
+      <Filter>vmap4_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\wmo.cpp">
+      <Filter>vmap4_extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging\WheatyExceptionReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\adtfile.h">
+      <Filter>vmap4_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\dbcfile.h">
+      <Filter>vmap4_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\model.h">
+      <Filter>vmap4_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\modelheaders.h">
+      <Filter>vmap4_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\mpq_libmpq04.h">
+      <Filter>vmap4_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\vec3d.h">
+      <Filter>vmap4_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\vmapexport.h">
+      <Filter>vmap4_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\wdtfile.h">
+      <Filter>vmap4_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\wmo.h">
+      <Filter>vmap4_extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\vmap4_extractor\loadlib\loadlib.h">
+      <Filter>vmap4_extractor\loadlib</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\common\Debugging\WheatyExceptionReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\tools\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{61E4FF88-FDB2-3594-9978-4B89E2FFBB22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C0034CBE-ACEB-382F-AA3E-B8AFC018FB8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vmap4_extractor">
+      <UniqueIdentifier>{6706E85C-1915-3E30-921B-4FDDF49901A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vmap4_extractor\loadlib">
+      <UniqueIdentifier>{6A2FA2C0-1ACA-3E80-AE89-0E558A49A877}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

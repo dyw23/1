@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\SharedDefines.cpp" />
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\enuminfo_SharedDefines.cpp" />
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\DataStores\DBCDatabaseLoader.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\DataStores\DBCStore.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\Packets\ByteBuffer.cpp">
+      <Filter>Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\Realms\Realm.cpp">
+      <Filter>Realms</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\Realms\RealmList.cpp">
+      <Filter>Realms</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\Secrets\SecretMgr.cpp">
+      <Filter>Secrets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\SharedDefines.h" />
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\DataStores\DBCDatabaseLoader.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\DataStores\DBCEnums.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\DataStores\DBCStorageIterator.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\DataStores\DBCStore.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\DataStores\DBCStructure.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\DataStores\DBCfmt.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\Network\AsyncAcceptor.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\Network\NetworkThread.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\Network\Socket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\Network\SocketMgr.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\Packets\ByteBuffer.h">
+      <Filter>Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\Realms\Realm.h">
+      <Filter>Realms</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\Realms\RealmList.h">
+      <Filter>Realms</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\Secrets\SecretMgr.h">
+      <Filter>Secrets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\WORK\AzerothCore-wotlk-with-NPCBots\src\server\shared\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DataStores">
+      <UniqueIdentifier>{2ADD9CDD-8981-37E0-AEB7-D8025764DA54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{8A00104E-00CB-3683-B7D4-E51BEBA4FB0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packets">
+      <UniqueIdentifier>{6F6AF262-CD53-3FC6-893E-D2A3E3CCA1F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Realms">
+      <UniqueIdentifier>{366EB5B9-B798-301B-8DC0-1D8CFCA0C56B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Secrets">
+      <UniqueIdentifier>{4CF12375-E477-31A3-B2F6-EFAF3DA523F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
